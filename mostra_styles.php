@@ -1,0 +1,37 @@
+
+<link rel="stylesheet" type="text/css" href="css/paginas.css">
+<div class="vinheta">Personalizar WebSite</div>
+
+<a class="btn-dell right branco" href="index.php?pg=mostra_admin&acao=publicar">Voltar</a>
+
+<div class="lista">
+	<div class="lista-vinheta">Publicar/Alterar</div>
+	<ul class="lista-conteudo">
+		<div class="span-0">
+			<form id="" name="" action="">
+				<div class="span-1 left">
+					<p>URL</p>
+					<span class="input-icon icon-link"></span>
+					<input id="" name="" class="input-1" type="text">
+				</div>
+				<div class="span-1 left">
+					<p>Meta Tags</p>
+					<textarea class="textarea" rows="9"></textarea>
+				</div>
+
+				<div class="span-2 left">
+					<p>Servidor SMTP</p>
+					<span class="input-icon icon-mail5"></span>
+					<input id="" name="" class="input-2" type="text">
+				</div>
+				<div class="span-4 left">
+					<p>Senha SMTP</p>
+					<span class="input-icon icon-key2"></span>
+					<input id="" name="" class="input-2" type="text">
+				</div>
+				<div class="span-sep"></div>
+				<input class="submit-add right branco" type="submit" value="Salvar">
+			</form>
+		</div>
+	</ul>
+</div>

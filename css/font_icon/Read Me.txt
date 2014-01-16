@@ -1,0 +1,5 @@
+Abrir * demo.html * para ver uma lista de todos os glifos em sua fonte, juntamente com seus códigos / ligaduras.
+
+Você não vai precisar de qualquer um dos arquivos localizados no diretório * demo-arquivos * ao incluir a fonte gerado em seus próprios projetos.
+
+Você pode importar * selection.json * volta para o aplicativo usando as IcoMoon * importar ícones * botão (ou via Menu> Gerenciar Projetos) para recuperar a sua seleção de ícones.

@@ -1,0 +1,44 @@
+body { background-color: #35363a; }
+
+.login-form {  
+	overflow: hidden;
+	margin: 100px auto;  
+	max-width: 350px; 
+}
+.login-form a { 
+	color: #f4f4f4;
+	float: left;
+	font-size: 28px;
+	margin-bottom: 15px;
+	text-align: center;
+	width: 100%;
+}
+
+.login-form form {
+	background-color: #fff;
+	border-radius: 5px;
+ 	float: left;
+ 	padding: 3%;
+ 	width: 94%;
+ }
+.login-form form p { color: #333; font-size: 15px; width: 100%; }
+.login-form form .lembrar-senha { font-size: 12px; text-align: right; width: 100%; }
+.login-form form input { 
+	border:1px solid #e9e9e9;
+	border-radius: 5px;
+	height: 40px;
+	outline: none;
+	padding: 0 2%;
+	margin:3px 0 15px 0;
+	width: 95.5%;
+}
+.login-form form #submit { 
+	background-color: #38b120;
+	color: #fff;
+	cursor: pointer;
+	display: block;
+	margin-bottom: 0;
+	text-align: center;
+	right: 0;
+	width: 100%;
+}

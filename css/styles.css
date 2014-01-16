@@ -1,0 +1,44 @@
+/* CSS Reset */
+	html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strike,sub,sup,tt,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figure,figcaption,footer,header,hgroup,menu,nav,output,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}
+	article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+	ol,ul{list-style:none}
+	blockquote,q{quotes:none}
+	blockquote:before,blockquote:after,q:before,q:after{content:none}
+	table{border-collapse:collapse;border-spacing:0}
+	input { border:none; }
+
+	html, body { font-family: 'Open Sans', sans-serif, arial; font-size: 13px; font-weight: 300 !important; width: 100%; }
+	img,iframe,object,video { max-width:100%; height:auto; }
+	a { color: #000; text-decoration: none; }
+
+/* Fontes */	
+	/* Cor */
+		.branco, 	.branco 	a { color: #fff; }
+		.grafite, 	.grafite 	a { color: #575757; }
+		.azul, 		.azul 		a { color: #37b7f3; }
+		.verde, 	.verde 		a { color: #52e136; }
+		.vermelho, 	.vermelho	a { color: #d12610; }
+		.laranja, 	.laranja	a { color: #eca820; }
+
+/* Propriedades */
+	.vinheta { float: left; font-size: 26px; width: 100%; }
+
+	.left { float: left; }
+	.right { float: right; }
+	.bottom { bottom: 0; }
+	.border-radius { -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; }
+
+	/* Botões */
+		.btn-add { background:#5cb85c; border-radius: 5px; cursor: pointer; display: block; margin: 10px 5px; padding: 10px 20px; }
+		.btn-add:hover { background:#4ba44b; }
+
+		.btn-dell { background:#d12610; border-radius: 5px; cursor: pointer; display: block; margin: 10px 5px; padding: 10px 20px; }
+		.btn-dell:hover.btn-dell { background:#c62f1c; }
+
+		.btn-default { background: #fff; border:1px solid #e6e6e6; border-radius: 5px; cursor: pointer; display: block; margin: 10px 5px; padding: 10px 20px; }
+		.btn-default:hover { background:#e6e6e6; }
+
+	/* Paginação */
+		.paginacao-bg { margin: 1% 1%; float: right; width: 98%; }
+		.paginacao a { background: #f4f4f4; border: 1px solid #ccc; float: left; margin-right: 2px; padding: 8px; }
+		.paginacao a:hover { background: #4b545f; border: 1px solid #4b545f; color: #fff; }
