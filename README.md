@@ -2,9 +2,15 @@ Wadmin
 ======
 Idealizado e iniciado por Waldilson Oliver **(Ainda em desenvolvimento)**
 
-## Workflow
+## Workflow **(Definindo)**
 
-- Definindo
+GIT e Versionamento:
+
+- **master**: É o branch estável, *merge* aqui só de features inteiras.
+- **develop**: É o branch instável, buscaremos deixar ele o mais estável possível mas os merges de desenvolvimento devem ser feitos aqui antes de ir ao master.
+- **<issue>-<short-title>**: Branches relacionadas a issues no repositório do GitLab.
+
+O versionamento utilizado para as tags é o [SemVer](http://semver.org).
 
 ## Servidor
 
