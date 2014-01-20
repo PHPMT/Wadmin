@@ -31,3 +31,9 @@ Ou definindo um virtual host no apache, redefinindo o caminho do diretorio root:
     </Directory>
 </VirtualHost>
 ```
+
+e adicionando no seu arquivo `hosts`:
+
+```
+127.0.0.1      wadmin.dev
+```
