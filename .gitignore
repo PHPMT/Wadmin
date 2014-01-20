@@ -1,2 +1,6 @@
 bower_components
 node_modules
+.sass-cache
+public/css/app.css
+public/css/app.min.css
+public/js/app.min.js
