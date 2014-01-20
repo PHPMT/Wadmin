@@ -43,3 +43,11 @@ e adicionando no seu arquivo `hosts`:
 ```
 127.0.0.1      wadmin.dev
 ```
+
+## Dependências
+
+Com o node.js, bower e grunt instalados na sua maquina siga os passos para instalar as dependências do Grunt:
+
+```
+npm install
+```
