@@ -5,8 +5,8 @@ module.exports = function(grunt) {
         uglify: {
             build: {
                 src: [
-                    "assets/javascripts/*.js",
-                    "bower_components/jquery/jquery.js"
+                    "bower_components/jquery/jquery.js",
+                    "assets/javascripts/*.js"
                 ],
                 dest: 'public/js/app.min.js'
             }
