@@ -11,7 +11,7 @@ Idealizado e iniciado por Waldilson Oliver **(Ainda em desenvolvimento)**
 Pode ser usado o servidor embutido do PHP a partir do diretório root:
 
 ```
-php -S localhost:8080 -t public
+# php -S localhost:8080 -t public
 ```
 
 Ou definindo um virtual host no apache, redefinindo o caminho do diretorio root:
