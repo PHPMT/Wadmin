@@ -17,7 +17,7 @@ O versionamento utilizado para as tags é o [SemVer](http://semver.org).
 Pode ser usado o servidor embutido do PHP a partir do diretório root:
 
 ```
-# php -S localhost:8080 -t public
+$ php -S localhost:8080 -t public
 ```
 
 Ou definindo um virtual host no apache, redefinindo o caminho do diretorio root:
@@ -49,5 +49,19 @@ e adicionando no seu arquivo `hosts`:
 Com o node.js, bower e grunt instalados na sua maquina siga os passos para instalar as dependências do Grunt:
 
 ```
-npm install
+$ npm install
+```
+
+## Grunt
+
+Você pode assistir os arquivos scss e js com o comando:
+
+```
+$ grunt watch
+```
+
+Ou gerar os assests com o comando:
+
+```
+$ grunt
 ```
