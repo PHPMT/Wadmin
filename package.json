@@ -1,0 +1,16 @@
+{
+  "name": "Wadmin",
+  "version": "0.0.0",
+  "private": true,
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "bower": "~1.2.8",
+    "grunt-contrib-uglify": "~0.2.7",
+    "grunt-contrib-sass": "~0.6.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-cssmin": "~0.7.0"
+  },
+  "scripts": {
+    "postinstall" : "node_modules/.bin/bower install; grunt init"
+  }
+}

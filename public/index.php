@@ -4,14 +4,11 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300|Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" href="css/styles.css">
-	<link rel="stylesheet" type="text/css" href="css/index.css">
-	<link rel="stylesheet" type="text/css" href="css/paginas.css">
+	<link rel="stylesheet" type="text/css" href="css/app.min.css">
 	<link rel="stylesheet" type="text/css" href="css/font_icon/font_icon.css">
 
 	<title>Administrador de Conteúdo</title>
 	<meta content="wandilson oliveira" name="author"/>
-	<script type="text/javascript" src="js/jquery-2.0.2.min.js"></script>
 </head>
 <body>
 	<!-- Barra Superior -->	
@@ -83,6 +80,6 @@
 	</div>
 
 	<!-- JS -->
-	<script type="text/javascript" src="js/funcoes.js"></script>
+	<script type="text/javascript" src="js/app.min.js"></script>
 </body>
 </html>
