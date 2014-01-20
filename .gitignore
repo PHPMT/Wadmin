@@ -4,3 +4,4 @@ node_modules
 public/css/app.css
 public/css/app.min.css
 public/js/app.min.js
+npm-debug.log
