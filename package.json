@@ -11,6 +11,6 @@
     "grunt-contrib-cssmin": "~0.7.0"
   },
   "scripts": {
-    "postinstall" : "node_modules/.bin/bower install"
+    "postinstall" : "node_modules/.bin/bower install; grunt init"
   }
 }
