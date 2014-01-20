@@ -1,5 +1,6 @@
-# Wadmin
-Idea
+Wadmin
+======
+Idealizado e iniciado por Waldilson Oliver **(Ainda em desenvolvimento)**
 
 ## Workflow
 
