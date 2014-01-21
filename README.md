@@ -4,7 +4,7 @@ Idealizado e iniciado por Waldilson Oliver **(Ainda em desenvolvimento)**
 
 ## Workflow **(Definindo)**
 
-GIT e Versionamento:
+GIT e Versionamento (extraido do oPHPortunidades):
 
 - **master**: É o branch estável, *merge* aqui só de features inteiras.
 - **develop**: É o branch instável, buscaremos deixar ele o mais estável possível mas os merges de desenvolvimento devem ser feitos aqui antes de ir ao master.
