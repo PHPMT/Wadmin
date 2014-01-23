@@ -1,14 +1,14 @@
-/* ==========================================================================
-   Media layout Principal
-   ========================================================================== */
+// ==========================================================================
+// Medias
+// ==========================================================================  
 
 @media only screen and (max-width: 800px) {
-	.lateral { background: #35363a; border-radius: 0 0 5px 0; margin-left: -215px; height: auto; position: absolute; z-index: 3; }
-	.capa { margin-left: 0px; z-index: 2; }
-	.nav-toggle { background-color: #d12610; cursor: pointer; display: block; float: right; padding: 13px 15px 14px 15px; }
+  .lateral { background: #35363a; border-radius: 0 0 5px 0; margin-left: -215px; height: auto; position: absolute; z-index: 3; }
+  .capa { margin-left: 0px; z-index: 2; }
+  .nav-toggle { background-color: #d12610; cursor: pointer; display: block; float: right; padding: 13px 15px 14px 15px; }
 }
 @media only screen and (max-width: 480px) {
-	.atalho { width: 95%; }
+  .atalho { width: 95%; }
 }
 
 
@@ -18,6 +18,6 @@
    ========================================================================== */
    
 @media only screen and (max-width: 800px) {
-	.colun-1, .colun-2, .colun-3, .colun-4 { float: left; width: 100%; }
-	.table thead  tr th.hidden-xs, .table tbody tr td.hidden-xs { display: none; }
+  .colun-1, .colun-2, .colun-3, .colun-4 { float: left; width: 100%; }
+  .table thead  tr th.hidden-xs, .table tbody tr td.hidden-xs { display: none; }
 }
