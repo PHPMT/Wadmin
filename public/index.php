@@ -13,7 +13,7 @@
 <body>
 	<!-- Barra Superior -->	
 	<div class="topo">
-		<span class="adm-titulo">INOVA<strong>WEB</strong></span>
+		<span class="adm-titulo">SYS<strong>TEM</strong></span>
 		<span class="nav-toggle branco">MENU</span>
 
 	</div>
