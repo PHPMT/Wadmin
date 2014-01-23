@@ -1,27 +1,17 @@
-/* Tabelas
-   ========================================================================== */
+// ==========================================================================
+// Tabelas
+// ========================================================================== 
+ 
 .table { 
-<<<<<<< HEAD
-        border-collapse: collapse; 
+    border-collapse: collapse; 
 
-        width: 100%; }
+    width: 100%; }
 .table thead { background: #f6f6f6; }
 .table thead  tr th { 
-        border-right: 1px solid #e6e6e6;
-        font-size: 14px;
-        font-weight: bold;
-        padding: 10px 0;
-=======
-	border-collapse: collapse; 
-
-	width: 100%; }
-.table thead { background: #f6f6f6; }
-.table thead  tr th { 
-	border-right: 1px solid #e6e6e6;
-	font-size: 14px;
-	font-weight: bold;
-	padding: 10px 0;
->>>>>>> cac7c0219f963bf1e2ee301df90136a31ea747cd
+    border-right: 1px solid #e6e6e6;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 0;
 }
 .table thead  tr th:last-child { border-right: none; }
 .table tbody { width: 100%; }
