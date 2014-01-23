@@ -1,6 +1,7 @@
 /* Formulários
    ========================================================================== */
    .form-group label { font-size: 16px; display: inline-table; margin: 2px 0; width: 100%; }
+<<<<<<< HEAD
         
         .form-group input {
                 border:1px solid #e6e6e6; 
@@ -21,3 +22,25 @@
                     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
             }
         }
+=======
+	
+	.form-group input {
+		border:1px solid #e6e6e6; 
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+		float: left; 
+		padding-left: 10px;
+		padding-right: 1%;
+		padding-top: 10px;
+		padding-bottom: 10px; 
+		width: 93%; 
+		&:focus {
+		border-color: #66afe9;
+		float: left;
+	  	outline: 0;
+	  	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+	    	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+	    }
+	}
+>>>>>>> cac7c0219f963bf1e2ee301df90136a31ea747cd

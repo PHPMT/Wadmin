@@ -1,10 +1,19 @@
 /* Grids
+<<<<<<< HEAD
    ========================================================================== */        
 .row { 
         float: left; 
 
         margin: 0.5% 1%;
         width: 98%;
+=======
+   ========================================================================== */	
+.row { 
+	float: left; 
+
+	margin: 0.5% 1%;
+	width: 98%;
+>>>>>>> cac7c0219f963bf1e2ee301df90136a31ea747cd
 }
 .colun-1 { float: left; width: 100%; }
 .colun-2 { float: left; width: 50%; }
@@ -12,6 +21,7 @@
 .colun-4 { float: left; width: 25%; }
 
 .panel-1 {
+<<<<<<< HEAD
         background: #fff;
         border:1px solid #e6e6e6;
         -webkit-border-radius: 5px;
@@ -33,4 +43,27 @@
                 padding: 10px 8px;
                 width: 99%;
         }
+=======
+	background: #fff;
+	border:1px solid #e6e6e6;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	width: 100%;
+	overflow: hidden;
+	.row {
+		float: left;
+
+		margin: 0.5% 1%;
+		width: 98%;
+	}
+	.title-pag {
+		background: #eeeeee;
+
+		font-size: 16px;
+
+		padding: 10px 8px;
+		width: 99%;
+	}
+>>>>>>> cac7c0219f963bf1e2ee301df90136a31ea747cd
 }
