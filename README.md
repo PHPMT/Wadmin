@@ -4,7 +4,7 @@ Idealizado e iniciado por Waldilson Oliver **(Ainda em desenvolvimento)**
 
 ## Workflow **(Definindo)**
 
-GIT e Versionamento:
+GIT e Versionamento (extraido do oPHPortunidades):
 
 - **master**: É o branch estável, *merge* aqui só de features inteiras.
 - **develop**: É o branch instável, buscaremos deixar ele o mais estável possível mas os merges de desenvolvimento devem ser feitos aqui antes de ir ao master.
@@ -17,7 +17,7 @@ O versionamento utilizado para as tags é o [SemVer](http://semver.org).
 Pode ser usado o servidor embutido do PHP a partir do diretório root:
 
 ```
-# php -S localhost:8080 -t public
+$ php -S localhost:8080 -t public
 ```
 
 Ou definindo um virtual host no apache, redefinindo o caminho do diretorio root:
@@ -49,5 +49,19 @@ e adicionando no seu arquivo `hosts`:
 Com o node.js, bower e grunt instalados na sua maquina siga os passos para instalar as dependências do Grunt:
 
 ```
-npm install
+$ npm install
+```
+
+## Grunt
+
+Você pode assistir os arquivos scss e js com o comando:
+
+```
+$ grunt watch
+```
+
+Ou gerar os assests com o comando:
+
+```
+$ grunt
 ```
