@@ -1,0 +1,36 @@
+/* Grids
+   ========================================================================== */        
+.row { 
+        float: left; 
+
+        margin: 0.5% 1%;
+        width: 98%;
+}
+.colun-1 { float: left; width: 100%; }
+.colun-2 { float: left; width: 50%; }
+.colun-3 { float: left; width: 33.33%; }
+.colun-4 { float: left; width: 25%; }
+
+.panel-1 {
+        background: #fff;
+        border:1px solid #e6e6e6;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        width: 100%;
+        overflow: hidden;
+        .row {
+                float: left;
+
+                margin: 0.5% 1%;
+                width: 98%;
+        }
+        .title-pag {
+                background: #eeeeee;
+
+                font-size: 16px;
+
+                padding: 10px 8px;
+                width: 99%;
+        }
+}
