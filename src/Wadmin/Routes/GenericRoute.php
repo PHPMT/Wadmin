@@ -6,10 +6,10 @@ use Respect\Rest\Routable;
 class GenericRoute implements Routable
 {
 	
-	public function get($any = 'index')
+	public function get($any = 'home')
 	{
 		return [
-				'view' => $any . '.twig'
+				'view'  => $any . '.twig'
 			];
 	}
 }
