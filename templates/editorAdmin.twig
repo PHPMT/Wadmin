@@ -1,4 +1,9 @@
-<link rel="stylesheet" type="text/css" href="css/paginas.css">
+{% extends "layouts/layout.twig" %}
+
+{% block title %} Editor Administradores {% endblock %}
+
+{% block content %}
+
 <div class="row vinheta">Publicar Administrador</div>
 
 <div class="row">
@@ -25,14 +30,12 @@
 						<input name="nome" type="password" placeholder="Digite a Senha" >
 					</div>
 				</div>
-
 				<div class="row">
-					<a class="btn-dell right branco" href="index.php?pg=mostra_admin&acao=publicar">Voltar</a>
+					<a class="btn-dell right branco" href="mostraAdmin">Voltar</a>
 					<input class="btn-add right branco" type="submit" value="Salvar">
 				</div>
-
 			</form>
-
 		</div>
 	</div>
 </div>
+{% endblock %}
