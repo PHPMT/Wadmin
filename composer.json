@@ -1,0 +1,25 @@
+{
+    "require": {
+        "twig/twig": "*",
+        "respect/rest": "*",
+        "respect/config": "*"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "dev-master",
+        "phpunit/phpunit": "3.7.*@dev"
+    },
+    "authors": [
+        {
+            "name": "Jack Makiyama",
+            "email": "jackmakiyama@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "" : "src/"
+        }
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}

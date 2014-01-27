@@ -1,12 +1,65 @@
-body { background: #35363a; }
+*{ margin: 0; padding: 0; }
+html {
+	body {
+		background: #35363a;
+		
+		font-family: 'Open Sans', sans-serif, arial;
+		font-size: 13px;
+		font-weight: 300 !important;
+		
+		width: 100%;
+	}
+}
+a { color: #000; text-decoration: none; }
+img,iframe,object,video { max-width:100%; height:auto; }
+
+.vinheta { font-size: 26px; width: 100%; }
+.right { float: right; }
+
+
+
+/* ==========================================================================
+   Estilo da Index
+   ========================================================================== */
 	/* Topo */
-	.topo { background: #242527; float: left; height: 45px; width: 100%; }
-		.adm-titulo { color: #cecfd3; font-size: 20px; float: left; padding: 10px; }
+	.topo {
+		background: #242527;
+
+		float: left;
+
+		height: 45px;
+		width: 100%;
+		.adm-titulo {
+			color: #cecfd3;
+			font-size: 20px;
+			
+			float: left;
+			
+			padding: 10px;
+		}
+	}
 
 	/* principal */
-	.conteudo { float: left; overflow: hidden; width: 100%; }
-		.lateral { float: left; min-height: 200px; position: absolute; width: 215px; }
-			.menu { list-style: none; margin: 0; margin:55px 0; padding: 0; padding: 0; }
+	.conteudo {
+		float: left;
+		overflow: hidden;
+		width: 100%;
+		.lateral {
+			float: left;
+			min-height: 200px;
+			position: absolute;
+			width: 215px;
+			.menu {
+				list-style: none;
+				margin: 0;
+				margin:55px 0;
+				padding: 0;
+				padding: 0;
+			}
+		}
+	}
+	
+			
 			.menu > li > a { border: 0px; display: block; font-size: 14px; margin: 0; padding: 10px 15px;position: relative;  text-decoration: none; }
 				ul.menu > li > a { border-top: 1px solid #414247; border-bottom: 1px solid #292a2d; color: #cecfd3; display: block; font-size: 14px; line-height: 20px;  }
 				ul.menu > li > a:hover { background: #242527;  }
@@ -34,14 +87,3 @@ body { background: #35363a; }
 
 
 	.rodape { color: #cecfd3; float: right; padding: 10px 35px; }
-
-
-	/* Mobile */
-		@media only screen and (max-width: 800px) {
-			.lateral { background: #35363a; border-radius: 0 0 5px 0; margin-left: -215px; height: auto; position: absolute; z-index: 3; }
-			.capa { margin-left: 0px; z-index: 2; }
-			.nav-toggle { background-color: #d12610; cursor: pointer; display: block; float: right; padding: 13px 15px 14px 15px; }
-		}
-		@media only screen and (max-width: 480px) {
-			.atalho { width: 95%; }
-		}

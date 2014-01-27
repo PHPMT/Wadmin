@@ -2,6 +2,8 @@ Wadmin
 ======
 Idealizado e iniciado por Waldilson Oliver **(Ainda em desenvolvimento)**
 
+[![Stories in Ready](https://badge.waffle.io/PHPMT/Wadmin.png?label=ready)](http://waffle.io/PHPMT/Wadmin)
+
 ## Workflow **(Definindo)**
 
 GIT e Versionamento (extraido do oPHPortunidades):

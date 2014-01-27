@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	{% include "elements/stylesheets.twig" %}
+	<title>{% block title %}Administrador de Conteúdo{% endblock %}</title>
+	<meta content="wandilson oliveira" name="author"/>
+</head>
+<body>
+
+	{% include "elements/header.twig" %}
+
+	<!-- Principal -->
+	<div class="conteudo">
+		{% include "elements/navbar.twig" %}
+
+		<!-- Home -->
+		<div class="capa">{% block content %} Seja Bem Vindo! {% endblock %}</div>
+		
+
+		{% include "elements/footer.twig" %}
+
+	</div>
+	{% include "elements/script.twig" %}
+</body>
+</html>
