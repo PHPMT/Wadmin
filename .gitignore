@@ -5,3 +5,7 @@ public/css/app.css
 public/css/app.min.css
 public/js/app.min.js
 npm-debug.log
+composer.lock
+vendor/
+bin/phpcs
+bin/phpunit

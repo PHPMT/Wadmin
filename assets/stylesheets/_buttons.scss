@@ -1,0 +1,26 @@
+/* Botões
+   ========================================================================== */
+.btn {
+	border-radius: 5px;
+
+	cursor: pointer;
+	display: block;
+
+	margin: 10px 5px;
+	padding: 10px 20px;
+}
+.btn-add {
+	background:#5cb85c;
+	color: #fff;
+	&:hover { background:#4ba44b; }
+}
+.btn-dell {
+	background:#d12610;
+	color: #fff;
+	&:hover { background:#c62f1c; }
+}
+.btn-default {
+	background: #fff;
+	border:1px solid #e6e6e6;
+	&:hover { background:#e6e6e6; }
+}
