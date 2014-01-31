@@ -3,7 +3,7 @@ namespace Common\Routine;
 
 use Twig_Environment;
 
-class twig
+class Twig
 {
 	/**
 	 * \Twig_Environment
