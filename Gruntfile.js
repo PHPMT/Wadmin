@@ -1,5 +1,7 @@
 module.exports = function(grunt) {
 
+    var init = ["uglify", "sass", "cssmin", "clean:css"];
+
     var gruntConfig = {
         pkg: grunt.file.readJSON('package.json'),
         uglify: {
@@ -27,8 +29,11 @@ module.exports = function(grunt) {
         watch: {
             css: {
                 files: 'assets/**',
-                tasks: ['sass', 'cssmin', 'uglify']
+                tasks: init
             }
+        },
+        clean: {
+            css: ["public/css/app.css"]
         }
     };
 
@@ -38,7 +43,8 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks("grunt-contrib-sass");
     grunt.loadNpmTasks("grunt-contrib-watch");
     grunt.loadNpmTasks("grunt-contrib-cssmin");
+    grunt.loadNpmTasks("grunt-contrib-clean");
 
-    grunt.registerTask("default", ["uglify", "sass", "cssmin"]);
-    grunt.registerTask("init", ["uglify", "sass", "cssmin"]);
+
+    grunt.registerTask("default", init);
 }
