@@ -71,3 +71,7 @@ Ou gerar os assests com o comando:
 ```
 $ grunt
 ```
+
+## Licence 
+
+MIT
